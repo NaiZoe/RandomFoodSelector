@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoader", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const generateRandom = document.getElementById("btn");
     generateRandom.addEventListener("click", function() {
         var foodArray = [
